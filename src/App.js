@@ -7,8 +7,8 @@ function App() {
 
   const[inputText, setInputText] = useState("");
   const[todos, setTodos] = useState([]);
-  const [status, setStatus] = useState('all');
-  const [filteredTodos, setFilteredTodos] =useState([]);
+  const [status, setStatus] = useState("all");
+  const [filteredTodos, setFilteredTodos] = useState([]);
 
   useEffect(() => {
     getLocalTodos();
@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
      <header>
-     <h1> Vignesh's To Do List </h1>
+     <h1> My To Do List </h1>
      </header>
      <Form 
      inputText={inputText} 
